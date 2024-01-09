@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    margin: 0 140px;
+    margin: 0 130px;
 }
 .container{
     height: 600px;
@@ -41,4 +41,31 @@ body{
     font-weight: 900;
     line-height: 80px;
     background-attachment: fixed;
+}
+/* new year section */
+#new-year{
+    margin-top: 50px;
+}
+.discount-header h1{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.discount-header h5{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-header h3{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-top: 16px;
 }
