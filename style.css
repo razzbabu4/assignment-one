@@ -286,6 +286,12 @@ form button{
     justify-content: space-between;
     padding: 100px 180px 20px 130px;
 }
+.contact .social-media p img{
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    padding-right: 5px;
+}
 
 hr{
     background: rgba(255, 255, 255, 0.15);
