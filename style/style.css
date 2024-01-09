@@ -167,9 +167,9 @@ margin: 16px 0 40px;
     align-items: center;
 }
 /* Portfolio design */
-/* #portfolio{
-   margin-top: 50px; 
-} */
+#portfolio{
+   margin-bottom: 50px; 
+}
 .portfolio-content h6{
 color: #F00;
 font-family: Inter;
@@ -208,4 +208,62 @@ padding: 15px 0 40px;
 }
 .portfolio-img .img-decoration img{
     width: 100%;
+}
+
+/* Newsletter */
+.background-three{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.newsletter-content{
+    text-align: center;
+    padding-top: 60px;
+}
+.newsletter-content h1{
+    color: #070211;
+    /* text-align: center; */
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.newsletter-content p{
+    color: rgba(7, 2, 17, 0.60);
+    padding: 0 150px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+}
+form{
+    text-align: center;
+}
+form input{
+width: 600px;
+height: 60px;
+border: none;
+margin: 50px 0 80px;
+padding-left: 30px;
+border-radius: 50px 0 0 50px;
+background: #FFF;
+color: rgba(7, 2, 17, 0.30);
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+}
+form button{
+width: 180px;
+height: 60px;
+border: none;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 12px;
+font-weight: 600;
+text-transform: capitalize;
 }
