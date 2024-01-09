@@ -78,3 +78,50 @@ margin: 16px 0 40px;
     background-size: contain;
     background-repeat: no-repeat;
 }
+/* banner two design */
+#banner-two{
+    margin-top: 100px;
+}
+.background-two{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image: url('/images/Vectorrr.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.banner-two-element{
+    margin: 0 120px;
+    display: flex;
+}
+.banner-two-content h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-top: 125px;
+}
+.banner-two-content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.banner-two-content button{
+    color: #FFF;
+    cursor: pointer;
+    background-color: #070211;
+    text-align: center;
+    border: none;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 45px 35px;
+}
+.banner-two-element .b-2-img{
+    padding: 65px 0;
+}
