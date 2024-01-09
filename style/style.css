@@ -44,7 +44,7 @@ body{
 }
 /* new year section */
 #new-year{
-    margin-top: 50px;
+    margin: 50px auto;
 }
 .discount-header h1{
     color: #F00;
@@ -67,5 +67,14 @@ text-align: center;
 font-family: Inter;
 font-size: 48px;
 font-weight: 700;
-margin-top: 16px;
+margin: 16px 0 40px;
+}
+.new-year-img{
+    margin: auto;
+    padding: 10px;
+    /* background-color: #F00; */
+    height: 500px;
+    width: 65%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
