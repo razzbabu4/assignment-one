@@ -44,7 +44,7 @@ body{
 }
 /* new year section */
 #new-year{
-    margin: 50px auto;
+    margin: 50px;
 }
 .discount-header h1{
     color: #F00;
@@ -124,4 +124,45 @@ margin: 16px 0 40px;
 }
 .banner-two-element .b-2-img{
     padding: 65px 0;
+}
+/* Event Details */
+#event-details{
+    margin: 50px 0;
+}
+.event-container{
+    height: 450px;
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    border-radius: 16px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+}
+.event-container h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.event-container span{
+    color: #F00;
+}
+.event-container > button{
+    color: #FFF;
+    background-color: #F00;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
