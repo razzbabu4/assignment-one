@@ -17,7 +17,7 @@ header, main{
 }
 .background{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url("../images/BannerImage.png");
+    background-image: url("BannerImage.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -62,17 +62,16 @@ header, main{
     font-weight: 500;
 }
 .discount-header h3{
-color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin: 16px 0 40px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 16px 0 40px;
 }
 .new-year-img{
     margin: auto;
     padding: 10px;
-    /* background-color: #F00; */
     height: 500px;
     width: 65%;
     background-size: contain;
@@ -84,7 +83,7 @@ margin: 16px 0 40px;
 }
 .background-two{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url('/images/Vectorrr.png');
+    background-image: url('Vectorrr.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -171,10 +170,10 @@ margin: 16px 0 40px;
    margin-bottom: 50px; 
 }
 .portfolio-content h6{
-color: #F00;
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
 }
 .portfolio-content h1{
     color: #070211;
@@ -185,13 +184,13 @@ font-weight: 500;
     padding-top: 10px;
 }
 .portfolio-content p{
-color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 15px;
-font-weight: 400;
-line-height: 20px;
-width: 60%;
-padding: 15px 0 40px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 60%;
+    padding: 15px 0 40px;
 }
 .portfolio-img{
     display: flex;
@@ -204,7 +203,6 @@ padding: 15px 0 40px;
     height: 400px;
     margin: 0 20px 20px 0;
     border-radius: 16px;
-    background-color: #F00;
 }
 .portfolio-img .img-decoration img{
     width: 100%;
@@ -224,7 +222,6 @@ padding: 15px 0 40px;
 }
 .newsletter-content h1{
     color: #070211;
-    /* text-align: center; */
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
@@ -245,56 +242,56 @@ form{
     text-align: center;
 }
 form input{
-width: 600px;
-height: 60px;
-border: none;
-margin: 50px 0 80px;
-padding-left: 30px;
-border-radius: 50px 0 0 50px;
-background: #FFF;
-color: rgba(7, 2, 17, 0.30);
-font-family: Inter;
-font-size: 12px;
-font-weight: 400;
+    width: 600px;
+    height: 60px;
+    border: none;
+    margin: 50px 0 80px;
+    padding-left: 30px;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
 }
 form button{
-width: 180px;
-height: 60px;
-border: none;
-border-radius: 0px 50px 50px 0px;
-background: #F00;
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 12px;
-font-weight: 600;
-text-transform: capitalize;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
 /* Footer Section */
 
 .footer-section{
-height: 600px;
-width: 100%+260px;
-background-color: #070211;
+    height: 600px;
+    width: 100%+260px;
+    background-color: #070211;
 }
 
 .contact{
-color: #FFF;
-font-family: Inter;
-font-size: 18px;
-font-weight: 500;
-line-height: 30px;
-display: flex;
-justify-content: space-between;
-padding: 100px 180px 20px 130px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 180px 20px 130px;
 }
 
 hr{
-background: rgba(255, 255, 255, 0.15);
-height: 0.5px;
-margin: 30px 130px;
-}
+    background: rgba(255, 255, 255, 0.15);
+    height: 0.5px;
+    margin: 30px 130px;
+    }
 
 .footer-section .icons{
     display: flex;
